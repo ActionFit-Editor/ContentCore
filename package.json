@@ -1,0 +1,11 @@
+{
+  "name": "com.actionfit.content-core",
+  "version": "0.2.0",
+  "displayName": "ActionFit Content Core",
+  "description": "Project-neutral content persistence and idempotent local reward contracts with PlayerPrefs defaults.",
+  "unity": "6000.2",
+  "author": {
+    "name": "ActionFit"
+  },
+  "dependencies": {}
+}

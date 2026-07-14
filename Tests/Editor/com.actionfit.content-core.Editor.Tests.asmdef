@@ -1,0 +1,23 @@
+{
+  "name": "com.actionfit.content-core.Editor.Tests",
+  "rootNamespace": "ActionFit.Content.Tests",
+  "references": [
+    "com.actionfit.content-core"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}
