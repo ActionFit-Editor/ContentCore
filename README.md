@@ -64,7 +64,7 @@ PlayerPrefs는 로컬 기본 동작과 샘플에 적합하지만 서버 권위 t
 현재 Cat Merge Cafe에서는 embedded package로 사용합니다. 수동 게시 후 다른 프로젝트의 `Packages/manifest.json`에는 다음 Git UPM 주소를 사용합니다.
 
 ```json
-"com.actionfit.content-core": "https://github.com/ActionFit-Editor/ContentCore.git#0.2.0"
+"com.actionfit.content-core": "https://github.com/ActionFit-Editor/ContentCore.git#0.2.1"
 ```
 
 ## Unity Menu

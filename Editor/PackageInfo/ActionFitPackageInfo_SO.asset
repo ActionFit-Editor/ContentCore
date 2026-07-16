@@ -15,7 +15,7 @@ MonoBehaviour:
   _packageId: com.actionfit.content-core
   _displayName: ActionFit Content Core
   _repoName: ContentCore
-  _repositoryVisibility: 1
+  _repositoryVisibility: 0
   _owner: ActionFit
   _status: verified
   _description: "\uD504\uB85C\uC81D\uD2B8 \uC800\uC7A5\uC18C\uC640 \uC7AC\uD654 \uC2DC\uC2A4\uD15C\uC5D0

@@ -7,7 +7,7 @@ This file is shipped inside the UPM package so an AI assistant can preserve the 
 - Package ID: `com.actionfit.content-core`
 - Display name: ActionFit Content Core
 - Repository: `https://github.com/ActionFit-Editor/ContentCore.git`
-- Current package version at generation time: `0.2.0`
+- Current package version at generation time: `0.2.1`
 - Unity version: `6000.2`
 - Runtime dependencies: none
 
