@@ -64,10 +64,10 @@ PlayerPrefs는 로컬 기본 동작과 샘플에 적합하지만 서버 권위 t
 현재 Cat Merge Cafe에서는 embedded package로 사용합니다. 수동 게시 후 다른 프로젝트의 `Packages/manifest.json`에는 다음 Git UPM 주소를 사용합니다.
 
 ```json
-"com.actionfit.content-core": "https://github.com/ActionFit-Editor/ContentCore.git#0.2.2"
+"com.actionfit.content-core": "https://github.com/ActionFit-Editor/ContentCore.git#0.2.3"
 ```
 
-## Unity Menu
+## Unity 메뉴
 
 - Package root: `Tools > Package > Content Core`
 - README: `Tools > Package > Content Core > README`
@@ -76,7 +76,7 @@ PlayerPrefs는 로컬 기본 동작과 샘플에 적합하지만 서버 권위 t
 
 Unity Test Framework의 EditMode에서 `com.actionfit.content-core.Editor.Tests`를 실행합니다. 최신 revision 선택, 손상된 최신 슬롯 fallback, 삭제, 중복 transaction 멱등성, reward 잔액 합산을 검증합니다.
 
-## Agent Skills
+## Agent Skill 안내
 
 - `$content-core-help`: 설치된 스킬 목록을 기준으로 opaque state store, 명시적 flush, two-slot fallback, 멱등 보상과 프로젝트 어댑터 경계를 설명합니다.
 - `$content-core-audit`: PlayerPrefs나 저장값을 읽지 않고 소스에서 revision/hash fallback, flush, ledger reload, checked 합산, `GrantOnce` 멱등성과 원자적 어댑터 조건을 점검합니다.
