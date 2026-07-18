@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Core Audit"
+  short_description: "Audit content persistence and rewards"
+  default_prompt: "Use $content-core-audit to audit Content Core persistence and idempotent reward contracts without reading or changing project data."

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "skillPrefix": "content-core",
+  "helpSkill": "content-core-help",
+  "skills": [
+    {
+      "name": "content-core-help",
+      "agents": [
+        "codex",
+        "claude"
+      ],
+      "includeShared": false,
+      "access": "read-only"
+    },
+    {
+      "name": "content-core-audit",
+      "agents": [
+        "codex",
+        "claude"
+      ],
+      "includeShared": false,
+      "access": "read-only"
+    }
+  ]
+}

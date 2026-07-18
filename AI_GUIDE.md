@@ -7,7 +7,7 @@ This file is shipped inside the UPM package so an AI assistant can preserve the 
 - Package ID: `com.actionfit.content-core`
 - Display name: ActionFit Content Core
 - Repository: `https://github.com/ActionFit-Editor/ContentCore.git`
-- Current package version at generation time: `0.2.1`
+- Current package version at generation time: `0.2.2`
 - Unity version: `6000.2`
 - Runtime dependencies: none
 
@@ -16,6 +16,13 @@ This file is shipped inside the UPM package so an AI assistant can preserve the 
 ActionFit Content Core defines small synchronous contracts for content state persistence and idempotent reward grants. It includes PlayerPrefs defaults so a content package can run without project adapters while allowing production projects to replace persistence and reward mutation independently.
 
 The package does not own content state DTOs, migrations, gameplay state machines, project currencies, analytics, cloud sync, UI, animation, Firebase, or server-authoritative transactions.
+
+## Agent Skills
+
+- `Skills~/manifest.json` registers schema v2 `content-core-help` and `content-core-audit` for Codex and Claude with read-only access.
+- Help reads the generated `PACKAGE_SKILLS.md` first and explains the package contracts without inspecting stored values.
+- Audit inspects source and project adapters for state-slot, flush, hash, ledger, idempotency, and atomicity evidence. It captures Git state before and after and never reads or mutates PlayerPrefs, payloads, transaction IDs, receipts, or balances.
+- Custom Package Manager owns installation and generated inventory. Do not author `PACKAGE_SKILLS.md` inside this package.
 
 ## Project Router Registration
 

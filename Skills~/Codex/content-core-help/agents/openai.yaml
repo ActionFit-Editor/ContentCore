@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Core Help"
+  short_description: "Explain content persistence contracts"
+  default_prompt: "Use $content-core-help to explain Content Core persistence, reward, adapter, test, and safety contracts."
